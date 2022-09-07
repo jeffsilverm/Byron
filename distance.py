@@ -13,8 +13,7 @@ def distance_byron_1(a, b):
         return a - b
     else:
         #        return a-b+(2(a-b))  int objects are not collable
-        return a - b + (2 * (
-                a - b))  # This is a computer program, not an algebra
+        return a - b + (2 * (  a - b))  # This is a computer program, not an algebra
         # treatise
 
 
