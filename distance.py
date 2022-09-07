@@ -136,6 +136,9 @@ def test_function_jeffs_way(test_case_name, function_under_test):
         print(
             f"arguments {a}, {b} to {function_under_test.__name__} raised an "
             f"AssertionError exception ")
+    else:
+        print("Pathological call.  You should never see this. distance: ",
+              a, b, r)
 
 
 def main():
